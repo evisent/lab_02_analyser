@@ -1,6 +1,6 @@
 import pytest
 
-from streamstats.errors import InvalidEventError, UnsupportedFormatError
+from streamstats.errors import UnsupportedFormatError
 from streamstats.parsers import get_parser, parse_csv, parse_jsonl
 
 
